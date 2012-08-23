@@ -43,7 +43,7 @@ class DDHandler(webapp2.RequestHandler):
 
 class MainPageHandler(DDHandler):
   def get(self):
-    self.RenderTemplate('templates/base.html', {'got_it': 'a dog!'})
+    self.RenderTemplate('templates/home.html', {'got_it': 'a dog!'})
 
 class IncrementHandler(DDHandler):
   def get(self):
